@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Button from './Button'
 
 function Header() {
 	return (
@@ -17,6 +18,8 @@ function Header() {
 					<span className="heading-primary-main">Outdoors</span>
 					<span className="heading-primary-sub">is where life happens</span>
 				</h1>
+
+				<Button />
 			</div>
 		</header>
 	)
