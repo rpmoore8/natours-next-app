@@ -1,11 +1,12 @@
 import Layout from '../components/layout'
+import Header from '../components/Header'
 
 function IndexPage() {
 	return (
 		<Layout>
-			<div>
-				<h1>Hello!</h1>
-			</div>
+			<body>
+				<Header />
+			</body>
 		</Layout>
 	)
 }
